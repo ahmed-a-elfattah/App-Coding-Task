@@ -1,10 +1,10 @@
 package com.aelfattah.ahmed.appcodingtask.ui
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import androidx.viewbinding.ViewBinding
+import dagger.android.support.DaggerAppCompatActivity
 
-abstract class BaseActivity<B : ViewBinding> : AppCompatActivity() {
+abstract class BaseActivity<B : ViewBinding> : DaggerAppCompatActivity() {
     private var _binding: B? = null
     val binding: B get() = _binding!!
     override fun onCreate(savedInstanceState: Bundle?) {
