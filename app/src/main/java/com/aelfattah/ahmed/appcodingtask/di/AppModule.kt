@@ -1,7 +1,7 @@
 package com.aelfattah.ahmed.appcodingtask.di
 
 import com.aelfattah.ahmed.appcodingtask.data.sources.remote.EndPoints
-import com.aelfattah.ahmed.appcodingtask.data.sources.remote.MoviesApi
+import com.aelfattah.ahmed.appcodingtask.data.sources.remote.FileApi
 import dagger.Module
 import dagger.Provides
 import retrofit2.Retrofit
@@ -14,14 +14,6 @@ object AppModule {
 
     @Singleton
     @Provides
-    fun providesRetrofitClient(): Retrofit = Retrofit.Builder()
-        .baseUrl(EndPoints.BASE_URL)
-        .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-        .addConverterFactory(GsonConverterFactory.create())
-        .build()
-
-    @Singleton
-    @Provides
-    fun providesMoviesApi(retrofit: Retrofit): MoviesApi = retrofit.create(MoviesApi::class.java)
+    fun providesFileApi(retrofit: Retrofit): FileApi = retrofit.create(FileApi::class.java)
 
 }

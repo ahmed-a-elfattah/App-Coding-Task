@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">App Coding Task</string>
+    <string name="there_is_no_files_to_display">There is no files to display</string>
+    <string name="ok">OK</string>
 </resources>

@@ -1,7 +1,7 @@
 package com.aelfattah.ahmed.appcodingtask.di
 
 import com.aelfattah.ahmed.appcodingtask.di.main.MainViewModelModule
-import com.aelfattah.ahmed.appcodingtask.ui.MainActivity
+import com.aelfattah.ahmed.appcodingtask.ui.main.MainActivity
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 

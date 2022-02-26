@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Me/Android Technical/Tasks/Nagwa/App-Coding-Task/app/src/main/res/drawable/ic_cloud_download_gray_26dp.xml" value="0.122" />
+        <entry key="..\:/Me/Android Technical/Tasks/Nagwa/App-Coding-Task/app/src/main/res/drawable/ic_dizzy.xml" value="0.122" />
+        <entry key="..\:/Me/Android Technical/Tasks/Nagwa/App-Coding-Task/app/src/main/res/drawable/ic_video.xml" value="0.122" />
+        <entry key="..\:/Me/Android Technical/Tasks/Nagwa/App-Coding-Task/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Me/Android Technical/Tasks/Nagwa/App-Coding-Task/app/src/main/res/layout/content_state.xml" value="0.17074275362318841" />
+        <entry key="..\:/Me/Android Technical/Tasks/Nagwa/App-Coding-Task/app/src/main/res/layout/empty_state.xml" value="0.17074275362318841" />
+        <entry key="..\:/Me/Android Technical/Tasks/Nagwa/App-Coding-Task/app/src/main/res/layout/error_state.xml" value="0.17074275362318841" />
+        <entry key="..\:/Me/Android Technical/Tasks/Nagwa/App-Coding-Task/app/src/main/res/layout/item_file_response.xml" value="0.17074275362318841" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.11956521739130435" />
       </map>
     </option>
